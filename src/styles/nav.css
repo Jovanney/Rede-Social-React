@@ -1,0 +1,115 @@
+.navbar {
+    background-color: #10403B;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: right;
+    gap: 100px;
+}
+.navbar a:-webkit-any-link {
+    margin-right: 10px;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+    border-bottom: 3px solid white;
+    height: fit-content;
+}
+.navbar a:-webkit-any-link:hover{
+    border: 3px solid white;
+    transition: 0.1s;
+}
+.navbar button{
+    margin-right: 10px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.infouseloged{
+    display: flex;
+    align-items: center;
+}
+
+.infouseloged img{
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+}
+.infouseloged p{
+    color: white;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbarmobile{
+    background-color: #10403B;
+    display: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.infouselogmob{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    margin-left: 10px;
+}
+.infouselogmob > img{
+    width: 50px;
+    border-radius: 50%;
+}
+.infouselogmob > p {
+    color: white;
+    font-size: 20px;
+}
+.menuMobile{
+    margin-right: 10px;
+}
+.menuMobile > button > img{
+    width: 20px;
+    cursor: pointer;
+}
+.itensMenuMobile{
+    background-color: #10403B;
+    display: none;
+}
+.menulinks a:-webkit-any-link{
+    color: white;
+    text-decoration: none; 
+    font-size: 24px;
+}
+.menulinks > p > button {
+    background-color: #10403B;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.menulinks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.menulinks p {
+    width: 100%;
+    margin-top: 10px;
+}
+.menulinks p:hover {
+    border: 1px solid black;
+}
+
+
+@media (max-width:600px){
+    .navbar{
+        display: none;
+    }
+    .navbarmobile{
+        display: flex;
+    }
+}

@@ -1,0 +1,37 @@
+.Homepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    background-color: #4C5958;
+    height: 100%;
+}
+.centerhome{
+    display: flex;
+    justify-content: center;
+    background-color: #8AA6A3;
+    min-height: 1200px;
+}
+.title{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.description{
+    color: #BFBFBF;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.footerpost{
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.footerpost > button{
+    cursor: pointer;
+    background-color: #4C5958;
+    border: 0;
+}
